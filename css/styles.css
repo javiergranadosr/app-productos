@@ -1,0 +1,101 @@
+/* BANNER TITULO APP */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #F9F4F4;
+}
+
+header {
+    width: 100%;
+    background: #fff;
+}
+
+.titulo-app {
+    color: #707070;
+    font-size: 2em;
+    text-align: left;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.caja-input, 
+.caja-input-nproducto,
+.caja-input-vendedor,
+.caja-input-precio {
+    width: 100%;
+    background: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    color: #707070;
+
+}
+.caja-input-nproducto,
+.caja-input-vendedor,
+.caja-input-precio{
+    text-align: center;
+}
+
+::-webkit-input-placeholder {
+    color: #707070;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #707070;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #707070;
+}
+
+:-ms-input-placeholder {
+    color: #707070;
+}
+
+::-webkit-input-placeholder {
+    color: #707070;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #707070;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #707070;
+}
+
+:-ms-input-placeholder {
+    color: #707070;
+}
+
+.btn-buscar,.btn-agregar-producto,
+.btn-actualizar-producto{
+    width: 100%;
+    border: none;
+    background: #F0C419;
+    padding: 5px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.btn-agregar-producto{
+
+    background: #8697CB;
+
+}
+tr{
+    font-size: .9em !important;
+}
+.icon-accion{
+    border: none;
+    background: none;
+}
+.icon-accion  img{
+    margin-left: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+
